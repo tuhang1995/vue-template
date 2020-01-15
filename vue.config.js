@@ -22,6 +22,8 @@ module.exports = {
             errors: true
         },
     },
+    //将文件打包到static目录下
+    //assetsDir: "static",
     configureWebpack: { // 覆盖webpack默认配置的都在这里
         resolve: { // 配置解析别名
             alias: {
