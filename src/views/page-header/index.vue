@@ -94,7 +94,9 @@ export default {
       this.defaultCheckedKeys = [1006, 1007];
     },
     popoverHide (checkedIds, checkedData) {
+
       console.log(checkedIds);
+      let a = 10
       console.log(checkedData);
     }
   }
